@@ -1,4 +1,4 @@
-baseURL = "https://example.org/"
+baseURL = "https://trace-game-site.netlify.com/"
 languageCode = "en-us"
 title = "TRAC3"
 theme = "navigator-hugo"
