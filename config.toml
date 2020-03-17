@@ -1,0 +1,107 @@
+baseURL = "https://example.org/"
+languageCode = "en-us"
+title = "TRAC3"
+theme = "navigator-hugo"
+summaryLength = 10
+
+# Build robots.txt file
+enableRobotsTXT = true
+# google analytics tracking id
+googleAnalytics = ""
+
+enableGitInfo = false
+pygmentsCodeFences = true
+
+# Multilangues setup
+# Renders the default content language in subdir, e.g. /en/. The root directory / will redirect to /en/
+defaultContentLanguageInSubdir = true
+DefaultContentLanguage = "en"
+
+# Site Params
+[params]
+logo = "images/title-2-export.png"
+
+# Gestion des langues : FR / EN / NL / DE
+[[Params.listeLangues]]
+code = "fr"
+[[Params.listeLangues]]
+code = "en"
+
+# meta data
+author = "Wintrmut3"
+description = "This is a landing page for my upcoming game, an arena combat roguelite where you play a nanobot that can ride the copper traces and use various electronic components and ICs to survive and upgrade."
+
+# Gestion des langues : FR / EN / NL / DE
+[Languages]
+
+############# 2 - Site en ENGLISH
+[Languages.en]
+weight = 2
+languageCode = "en-us"
+title = "Trac3"
+dateFormat = "January 2, 2006"
+
+home = "Home"
+logo = "img/title-2-export.png"
+menufixed = false
+
+footerDescription = "A demo site for TRAC3."
+# footerServiceTitle = "Service"
+# footerQuicklinkTitle = "Quicklinks"
+footerAboutTitle = "About"
+footerSubscribeTitle = "Subscribe"
+
+# Hero Area Section
+[Languages.en.params.hero]
+enable  = true
+heading = "Welcome to TRAC3."
+description = "Welcome to TRAC3. This is a landing page for my upcoming game, an arena combat roguelite where you play a nanobot that can ride the copper traces and use various electronic components and ICs to survive and upgrade."
+button  = true
+ btnText = "Get the Game"
+ btnURL  = "https://www.wintermutedigital.com"
+videoThumb = "img/thumb.png"
+videoURL   = "https://www.youtube.com/embed/9b23wgIDX2Y"
+
+
+#About 2 Section
+[Languages.en.params.aboutSm]
+enable  = true
+title   = "Gameplay Features"
+description = "**Fight in gladatorial combat** against many classes of hostile antiviruses - **Build traps** with common electronic components like capacitors and diodes - **Build advanced integrated circuit towers** to assist you in combat - **Collect BYTES** from destroyed enemies to upgrade your bot - **Tactically shoot your way through 9 levels** of increasingly complex circuit boards - **Annihilate** powerful bosses - **Upgrade your skill tree** to specialize in areas of combat - Select from **four playable classes** - **Destroy enemy control points** for EXP and board control"
+
+# Blog Section On Homepage
+[Languages.en.params.blog]
+enable  = true
+topTitle= "Updates"
+title   = "Devnotes"
+subtitle= "Here are some Game Development Notes from the design of Trac3."
+
+# Contact Section
+[Languages.en.params.contact]
+# enable  = true
+# topTitle= "DROP US A NOTE"
+# title   = "Contact Us."
+# subtitle= "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum reiciendis quasi itaque, obcaecati atque sit!"
+# address = "14/05, Stockhome <br> Victori Palace , United States"
+# phone   = "(03) 9283 2617"
+# fax     = "+61 3827 3590"
+# facebook= "https://www.facebook.com/"
+# twitter = "https://twitter.com/"
+# linkedin= "https://www.linkedin.com/"
+# dribbble= "https://dribbble.com/"
+# instagram= "https://www.instagram.com/"
+# mapLatitude = "51.507351"
+# mapLongitude= "-0.127758"
+# mapMarker   = "images/marker.png"
+
+# Call to Action Section on About Page
+# [Languages.en.params.cta]
+# enable  = true
+# bg      = "images/call-to-action/call-to-action-bg-2.jpg"
+# title   = "Let's Create Something Together"
+# subtitle= "Proin gravida nibh vel velit auctor aliquet. Aenean sollicudin bibendum auctor, <br> nisi elit consequat ipsum, nesagittis sem nid elit. Duis sed odio sitain elit."
+# btnText = "Contact Us"
+
+# We Used Themefisher Icon font for Icon, for more details check this github repository - https://github.com/themefisher/themefisher-font
+
+
